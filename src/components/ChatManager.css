@@ -1,0 +1,41 @@
+.chat-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;   
+  min-height: 100vh;   /* full page height */
+  text-align: center;
+}
+
+.chat-manager h2 {
+  margin-bottom: 20px;
+  color: #00dfff;
+}
+
+.chat-manager input {
+  margin: 6px 0;
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-manager button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background-color: #00dfff;
+  border: none;
+  border-radius: 25px;
+  color: #102733;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.chat-manager button:hover {
+  background-color: #00c2e0;
+}
+
+.button-row {
+  display: flex;
+  gap: 15px;
+}

@@ -1,0 +1,98 @@
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: auto;
+  padding: 15px;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;   /* space between username and exit button */
+}
+
+.logged-in {
+  font-size: 13px;
+  color: #ddd;   /* lighter text so it’s visible */
+}
+
+
+.logged-in {
+  font-size: 12px;
+  color: #666;
+  margin-right: 10px;
+}
+
+.exit-button {
+  padding: 6px 30px;
+  background: #ff4d4d;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.exit-button:hover {
+  background: #e60000;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.own-message {
+  text-align: right;
+  color: #00796b;
+}
+
+.no-messages {
+  text-align: center;
+  color: #aaa;
+}
+
+.chat-input {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.chat-input button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #00dfff;
+  color: #102733;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background: #00c2e0;
+}
