@@ -73,3 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 "# quick-chatter-UI" 
 "# quick-chatter-UI" 
 "# quick-chatter-UI" 
+"# quickChatterUI" 
